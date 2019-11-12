@@ -78,3 +78,14 @@ div.socialmedia img:hover{
   opacity: 1;
 
 }
+
+@media screen and (max-width: 900px) {
+  h1{
+  text-decoration: none;
+  color: #999999;
+  float: left;
+  font-size: 25px;
+  margin: 25px;
+}
+
+}
