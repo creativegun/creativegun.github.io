@@ -99,7 +99,7 @@ body{
 	position: relative;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .gallery{
 	margin-top: 150px;
 	display: flex;
