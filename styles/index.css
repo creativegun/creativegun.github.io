@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  text-decoration: none;
+  color: #999999;
+  float: left;
+  font-size: 22px;
+  margin: 25px;
+}
+
+h1:hover{
+  color: #fff;
+}
+
+.logo{
+	top:35%; 
+	left: 10%; 
+	position: absolute; 
+	height: 15%; 
+	width: auto;
+}
+
+.socialmedia{
+  position: absolute;
+  height: 100px;
+  width: auto;
+  margin: 30px;
+  bottom: 50%;
+  right: 0%;
+  /*left: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+div.socialmedia img{
+  opacity: 0.5;
+  position: relative;
+  height: 40px;
+  width: auto;
+  float: left;
+  margin: 5px;
+  /*box-shadow: 0px 0px 5px #fff;*/
+}
+
+div.socialmedia img:hover{
+  opacity: 1;
+
+}

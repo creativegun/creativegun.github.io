@@ -1,0 +1,33 @@
+.logo{
+	height: 50%;
+	width: auto;
+	position: relative;
+	left: 5%;
+	top:50%;
+}
+
+
+.forms{
+	position: absolute;
+	top:52%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.text{
+	font-family: 'Montserrat', sans-serif;	
+    font-size: 100%; 
+	position: fixed;
+	/*left:10%;*/
+	right: 1%;
+	bottom: 1%;
+	text-align: left;
+}
+
+.box1{
+	position: fixed;
+	width: 100%;
+	height: 16%;
+	top:0%;
+	left:0%;
+}
