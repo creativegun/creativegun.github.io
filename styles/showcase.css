@@ -68,7 +68,7 @@ h1{
 }
 */
 .gallery{
-	margin-top: 150px;
+	margin-top: 200px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -99,9 +99,9 @@ body{
 	position: relative;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .gallery{
-	margin-top: 200px;
+	margin-top: 150px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
