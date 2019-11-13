@@ -18,10 +18,10 @@ body {
 .content {
   position: fixed;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
+  padding: 0px;
 }
 
 .content2{
@@ -41,12 +41,12 @@ h1{
 }
 
 h1:hover{
-  color: #fff;
+  color: #2196f3;
 }
 
 .logo{
 	top:35%; 
-	left: 10%; 
+	left: 5%; 
 	position: absolute; 
 	height: 15%; 
 	width: auto;
@@ -56,8 +56,8 @@ h1:hover{
   position: absolute;
   height: 100px;
   width: auto;
-  margin: 30px;
-  bottom: 50%;
+  margin: 5px;
+  bottom: 40%;
   right: 0%;
   /*left: 50%;
   transform: translate(-50%, -50%);*/
@@ -76,4 +76,13 @@ div.socialmedia img{
 div.socialmedia img:hover{
   opacity: 1;
 
+}
+
+.quotes{
+  top:40%; 
+  right:5%; 
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+  text-align: right;
 }

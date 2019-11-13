@@ -98,3 +98,20 @@ h1{
 body{
 	position: relative;
 }
+
+footer{
+	width: 100%;
+	margin-top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+}
+
+footer img{
+	height: 10px;
+	width: auto;
+	margin: 10px;
+}
