@@ -1,9 +1,9 @@
 .logo{
-	height: 50%;
+	height: 42%;
 	width: auto;
-	position: relative;
+	position: absolute;
 	left: 5%;
-	top:50%;
+	bottom: 26%;
 }
 
 
@@ -27,7 +27,8 @@
 .box1{
 	position: fixed;
 	width: 100%;
-	height: 16%;
+	height: 200px;
 	top:0%;
 	left:0%;
+	/*background-color:#e91e63;*/
 }

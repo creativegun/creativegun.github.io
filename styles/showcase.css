@@ -1,9 +1,9 @@
 .logo{
-	height: 50%;
+	height: 42%;
 	width: auto;
 	position: absolute;
 	left: 5%;
-	bottom: 10%;
+	bottom: 26%;
 }
 
 .footer_bg{
@@ -16,7 +16,7 @@
 .box1{
 	position: fixed;
 	width: 100%;
-	height: 16%;
+	height: 200px;
 	top:0%;
 	left:0%;
 	background-color:#fff;
@@ -29,7 +29,7 @@ h1{
   text-align:center;	
   font-size: 170%;
   right: 5%;
-  bottom: 25%; 
+  bottom: 40%; 
 }
 
 .pstr{
@@ -68,7 +68,7 @@ h1{
 }
 */
 .gallery{
-	margin-top: 150px;
+	margin-top: 200px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
