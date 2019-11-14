@@ -34,14 +34,14 @@ body {
 
 h1{
   text-decoration: none;
-  color: #999999;
+  color: #bababa;
   float: left;
   font-size: 25px;
   margin: 25px;
 }
 
 h1:hover{
-  color: #2196f3;
+  color: #fff;
 }
 
 .logo{
