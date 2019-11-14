@@ -32,7 +32,16 @@
 	</div>
 </div>
 <img class="logo" src="assets/Logo (2).png">
-<p class="quotes"><b style="font-size:30px;">"</b>There are no rules in filmmaking.<br> Only sins. And the cardinal sin is dullness.<b style="font-size:30px;">"</b><br>
-– Frank Capra</p>
+<div class="quotes"><div id="factDisplay"></div></div>
+
+<script type="text/javascript">
+	var facts = ["\"The secret to creativity is knowing how to hide your sources.\" -Albert Einstein", "\"There are no rules in filmmaking.Only sins. And the cardinal sin is dullness.\" –Frank Capra", "\"Creativity is breaking out of established patterns to look at things in a different way.\" -Edward de Bono","\"Cinema is the ultimate pervert art. It doesn't give you what you desire - it tells you how to desire.\" -Slavoj Žižek"];
+
+!function newFact() {
+  var randomFact = Math.floor(Math.random() * facts.length);
+  document.getElementById('factDisplay').innerHTML = facts[randomFact]
+}();
+</script>
+
 </body>
 </html>
