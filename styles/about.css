@@ -18,13 +18,17 @@
     font-family: 'Montserrat', sans-serif;	
     font-size: 22px; 
     text-align: left;
-    margin-top: 5px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+    margin: auto;
 	padding: 20px;
+	width: 700px;
+}
+
+.about {	
+    font-family: 'Montserrat', sans-serif;	
+    font-size: 30px; 
+    text-align: left;
+    font-weight: bold;
+    color: #858585;
 }
 
 .box1{
@@ -68,22 +72,18 @@
 
 .socialmedia{
 	margin-top: 100px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+	width: 400px;
+	margin: auto;
 	padding: 5px;
+	/*background-color:#858585;*/
+	text-align: center;
 }
 
 div.socialmedia img{
 	opacity: .5;
-	position: relative;
-	float: left;
 	width: 	40px;
-	height: 40px;
+	margin: 5px;
 	/*box-shadow: .1px .1px 3px .1px #888888;*/
-	margin: 10px;
 }
 
 div.socialmedia img:hover{
@@ -96,3 +96,38 @@ div.socialmedia img:hover{
 	padding: 10px;
 }
 
+@media (max-width:1200px) and (min-width:0px){
+	
+.logo{
+	height: 50%;
+	width: auto;
+	position: absolute;
+	left: 5%;
+	bottom: 26%;
+}
+.text {	
+    font-size: 30px;
+}
+
+.about {	
+    font-size: 40px; 
+}
+
+.main{
+	margin-top: 200px;
+	padding: 10px;
+	/*background-color:#858585;*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.socialmedia{
+	margin-top: 60px;
+}
+
+
+}
