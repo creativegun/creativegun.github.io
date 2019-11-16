@@ -25,6 +25,7 @@
 <img alt="creativegunfilms" class="logo_b" src="assets/Logo.png">
 <div class="quotes"><div id="factDisplay"></div></div>
 
+<!-- random text -->
 <script type="text/javascript">
 	var facts = ["\"The secret to creativity is knowing how to hide your sources.\" -Albert Einstein", "\"There are no rules in filmmaking.Only sins. And the cardinal sin is dullness.\" –Frank Capra", "\"Creativity is breaking out of established patterns to look at things in a different way.\" -Edward de Bono","\"Cinema is the ultimate pervert art. It doesn't give you what you desire - it tells you how to desire.\" -Slavoj Žižek","\"The object of art is not to reproduce reality, but to create a reality of the same intensity.\" -Alberto Giacometti","\"I'm sure anyone who likes a good crime, provided it is not the victim.\" ―Alfred Hitchcock","\"An average director directs. A good director leads and follows at the same time.\" ―Kensington Gore","\"I make movies that make no sense and make no money.\" ―Seijun Suzuki","\"It ain't the picture and it ain't the camera - it's the operator.\" ―Jordan Hoechlinchlin","\"To Walk In Direction Is A Function That The Director Is Aware\" ―Sunday Adelaja","\"Art is never finished, only abandoned\" ―Leonardo da Vinci","\"Changing up How you did grow up is what we call ART\" ―Titas Mallick" ];
 
@@ -32,6 +33,37 @@
   var randomFact = Math.floor(Math.random() * facts.length);
   document.getElementById('factDisplay').innerHTML = facts[randomFact]
 }();
+</script>
+
+<!--right click disable-->
+<SCRIPT LANGUAGE="JavaScript">
+function clickIE() 
+{
+	if (document.all) 
+	{
+		return false;
+	}
+}
+
+function clickNS(e) {
+	if 
+		(document.layers||(document.getElementById&&!document.all)) {
+			if (e.which==2||e.which==3) 
+				{
+					return false;
+				}
+			}
+		}
+			if (document.layers){
+				document.captureEvents(Event.MOUSEDOWN);
+				document.onmousedown=clickNS;
+			}
+			else{
+				document.onmouseup=clickNS;
+				document.oncontextmenu=clickIE;
+			}
+
+			document.oncontextmenu=new Function("return false")
 </script>
 
 </body>
